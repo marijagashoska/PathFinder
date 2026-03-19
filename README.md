@@ -2,7 +2,7 @@
 
 PathFinder is a React Native app built with Expo for recording walking or movement sessions on a map, saving them locally, and reopening them later from history.
 
-The assignment asked for four core capabilities: live map/location display, route tracking with distance and duration, local persistence, and history/detail screens. It also required Expo, MapTiler, one of React Context/Zustand/Redux for state management, and a modern styling library such as NativeWind or Styled Components. This project implements those requirements with Expo, `react-native-maps`, MapTiler tiles, React Context, AsyncStorage, and NativeWind. fileciteturn0file0L1-L20
+The assignment asked for four core capabilities: live map/location display, route tracking with distance and duration, local persistence, and history/detail screens. It also required Expo, MapTiler, one of React Context/Zustand/Redux for state management, and a modern styling library such as NativeWind or Styled Components. This project implements those requirements with Expo, `react-native-maps`, MapTiler tiles, React Context, AsyncStorage, and NativeWind. 
 
 ## What the app does
 
