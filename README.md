@@ -133,7 +133,6 @@ The brief asked for:
 7. React Context, Zustand, or Redux for state management
 8. NativeWind or Styled Components for styling
 
-These requirements are implemented as follows: fileciteturn0file0L7-L20
 
 ### 1) Real-time map integration
 
@@ -169,7 +168,7 @@ How it is implemented:
 - `src/app/_layout.tsx` wraps the app in that provider
 - screens access the shared tracking state through `useTracking()`
 
-This matches the assignment requirement to use **React Context, Zustand, or Redux**. fileciteturn0file0L17-L20
+This matches the assignment requirement to use **React Context, Zustand, or Redux**.
 
 ### 6) Styling requirement
 
@@ -181,11 +180,11 @@ How it is implemented:
 - the styling approach is applied in the main app screens, especially the history and activity detail views, and can also be used on the home screen in the final version
 - standard React Native `StyleSheet` is still used in a few shared components where that is simpler or more practical, such as map-related layout
 
-This still satisfies the assignment requirement to use a modern styling library such as **NativeWind** or **Styled Components**. fileciteturn0file0L17-L20
+This still satisfies the assignment requirement to use a modern styling library such as **NativeWind** or **Styled Components**. 
 
 ## Edge cases handled
 
-The brief explicitly asks what happens when the user denies location permission. fileciteturn0file0L21-L27
+The brief explicitly asks what happens when the user denies location permission. 
 
 This project handles the main edge cases like this:
 
@@ -198,7 +197,7 @@ This project handles the main edge cases like this:
 
 ## AI use during development
 
-The assignment asks for a short explanation of which AI tools were used and how they helped. fileciteturn0file0L28-L33
+The assignment asks for a short explanation of which AI tools were used and how they helped. 
 
 AI assistance was used through **ChatGPT** during development.
 
@@ -239,4 +238,4 @@ Before submission, make sure the repository contains:
 
 ## Summary
 
-PathFinder is a small Expo app that records routes, saves them locally, and replays them later. It meets the assignment goals for tracking, persistence, history/detail screens, state management, and styling, while also handling the main location-related failure cases the brief calls out. fileciteturn0file0L21-L33
+PathFinder is a small Expo app that records routes, saves them locally, and replays them later. It meets the assignment goals for tracking, persistence, history/detail screens, state management, and styling, while also handling the main location-related failure cases the brief calls out. 
